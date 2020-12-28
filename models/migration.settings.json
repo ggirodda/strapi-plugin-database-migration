@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strapi_migrations",
+  "info": {
+    "name": "Migration"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "timestamps": true,
+    "increments": true,
+    "comment": ""
+  },
+  "attributes": {
+    "store": {
+      "type": "json",
+      "configurable": false,
+      "required": true
+    }
+  }
+}

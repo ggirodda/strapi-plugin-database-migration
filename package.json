@@ -1,0 +1,46 @@
+{
+  "name": "strapi-plugin-database-migration",
+  "version": "0.0.4",
+  "description": "strapi database migration",
+  "strapi": {
+    "name": "database-migration",
+    "icon": "plug",
+    "description": "strapi database migration"
+  },
+  "bin": {
+    "strapi-migrate": "./bin/strapi-migrate",
+    "strapi-migrate-create": "./bin/strapi-migrate-create",
+    "strapi-migrate-down": "./bin/strapi-migrate-down",
+    "strapi-migrate-init": "./bin/strapi-migrate-init",
+    "strapi-migrate-list": "./bin/strapi-migrate-list",
+    "strapi-migrate-up": "./bin/strapi-migrate-up"
+  },
+  "author": {
+    "name": "Ciro Alabrese",
+    "email": "alabresec@gmail.com",
+    "url": "https://github.com/ggirodda/strapi-plugin-database-migration"
+  },
+  "maintainers": [
+    {
+      "name": "Ciro Alabrese",
+      "email": "alabresec@gmail.com",
+      "url": "https://github.com/ggirodda/strapi-plugin-database-migration"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "migrate": "^1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ggirodda/strapi-plugin-database-migration"
+  },
+  "bugs": {
+    "url": "https://github.com/ggirodda/strapi-plugin-database-migration"
+  },
+  "homepage": "https://github.com/ggirodda/strapi-plugin-database-migration"
+}

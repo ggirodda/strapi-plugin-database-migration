@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const strapiModule = require('strapi');
+
+strapiModule()
+  .load()
+  .then(() => require('migrate/bin/migrate-down'));
